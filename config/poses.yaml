@@ -1,0 +1,41 @@
+pick_scan_place:
+  ros__parameters:
+    # Pick position - where the object sits
+    pick_position:
+      x: 0.4
+      y: 0.0
+      z: 0.4
+      qx: 1.0
+      qy: 0.0
+      qz: 0.0
+      qw: 0.0
+
+    # Scan position - where robot holds object for QR scanning
+    scan_position:
+      x: 0.3
+      y: 0.3
+      z: 0.6
+      qx: 1.0
+      qy: 0.0
+      qz: 0.0
+      qw: 0.0
+
+    # Place position A - bin for QR code "A"
+    place_position_a:
+      x: 0.4
+      y: 0.3
+      z: 0.2
+      qx: 1.0
+      qy: 0.0
+      qz: 0.0
+      qw: 0.0
+
+    # Place position B - bin for QR code "B"
+    place_position_b:
+      x: 0.4
+      y: -0.3
+      z: 0.2
+      qx: 1.0
+      qy: 0.0
+      qz: 0.0
+      qw: 0.0
